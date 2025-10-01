@@ -1,0 +1,23 @@
+{
+  "name": "first-contract-tg-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.4.17",
+    "@types/node": "^20.12.8",
+    "@types/qs": "^6.9.15",
+    "qs": "^6.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@ton/core": "^0.56.3",
+    "@ton/crypto": "^3.2.0",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  }
+}
